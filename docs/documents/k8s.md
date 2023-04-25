@@ -10,25 +10,25 @@
 
 ### Traditionally
 
-![Physical](http://zprde.cn:32212/images/2022/11/02/66269a550e38604e2acc85db50a026ad.png)
+![Physical](https://img.zprde.cn/images/2022/11/02/66269a550e38604e2acc85db50a026ad.png)
 
 ---
 
 ### Virtualization
 
-![img](http://zprde.cn:32212/images/2022/11/02/3b58bbdf271c5222f2f0a2edb3014cd7.png)
+![img](https://img.zprde.cn/images/2022/11/02/3b58bbdf271c5222f2f0a2edb3014cd7.png)
 
 ---
 
 ### Docker
 
-![img](http://zprde.cn:32212/images/2022/11/02/05170cee177746f977a84ba6caf3c4f8.png)
+![img](https://img.zprde.cn/images/2022/11/02/05170cee177746f977a84ba6caf3c4f8.png)
 
 ---
 
 ### K8s
 
-![img](http://zprde.cn:32212/images/2022/11/02/bab28d2e8476868fb808483ea2ddbd65.png)
+![img](https://img.zprde.cn/images/2022/11/02/bab28d2e8476868fb808483ea2ddbd65.png)
 
 ----
 
@@ -65,7 +65,7 @@
 
 ---
 
-![image-20221103222243631](http://zprde.cn:32212/images/2022/11/03/image-20221103222243631.png)
+![image-20221103222243631](https://img.zprde.cn/images/2022/11/03/image-20221103222243631.png)
 
 ---
 
@@ -75,7 +75,7 @@
 
 ---
 
-![Deployment](http://zprde.cn:32212/images/2022/11/03/k8s-deployment.png)
+![Deployment](https://img.zprde.cn/images/2022/11/03/k8s-deployment.png)
 
 ---
 
@@ -93,7 +93,7 @@
 
 ---
 
-![img](http://zprde.cn:32212/images/2022/11/03/1tnK94zrEwyNe1hL-PhJXOA.png)
+![img](https://img.zprde.cn/images/2022/11/03/1tnK94zrEwyNe1hL-PhJXOA.png)
 
 ---
 
@@ -105,13 +105,13 @@
 
 ---
 
-![Exploring Kubernetes Volumes](http://zprde.cn:32212/images/2022/11/04/volumes-1.png)
+![Exploring Kubernetes Volumes](https://img.zprde.cn/images/2022/11/04/volumes-1.png)
 
 ---
 
 ### ConfigMap && Secret
 
-![Kubernetes Connector and ConfigSeeder](http://zprde.cn:32212/images/2022/11/03/Features_K8sConnector_Setup.png)
+![Kubernetes Connector and ConfigSeeder](https://img.zprde.cn/images/2022/11/03/Features_K8sConnector_Setup.png)
 
 
 
