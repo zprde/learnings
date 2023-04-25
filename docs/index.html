@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>My Documents</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides" id="app">
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			setMarkDown()
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+
+			setTimeout(() => document.getElementsByTagName('a').forEach(a => {
+				a.target = '_blank'
+			}), 2000)
+
+			function setMarkDown(){
+				const params = new Proxy(new URLSearchParams(window.location.search), {
+					get: (searchParams, prop) => searchParams.get(prop),
+				});
+				let value = params.md;
+				console.log(value)
+				if(!!value){
+					document.getElementById("app").innerHTML = "<section data-markdown=\"./documents/"+value+".md\"\n" +
+							"                 data-separator=\"^----\"\n" +
+							"                 data-separator-vertical=\"^---\"\n" +
+							"                 data-separator-notes=\"^Note:\"\n" +
+							"                 data-charset=\"utf-8\">\n" +
+							"        </section>"
+				} else {
+					alert("error")
+				}
+			}
+		</script>
+	</body>
+</html>
