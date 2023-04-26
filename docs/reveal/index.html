@@ -46,6 +46,7 @@
 				let value = params.md;
 				console.log(value)
 				if(!!value){
+					document.title = "Presentation of: "+ value
 					document.getElementById("app").innerHTML = "<section data-markdown=\"../documents/"+value+".md\"\n" +
 							"                 data-separator=\"^----\"\n" +
 							"                 data-separator-vertical=\"^---\"\n" +
@@ -53,7 +54,8 @@
 							"                 data-charset=\"utf-8\">\n" +
 							"        </section>"
 				} else {
-					alert("error")
+					document.getElementById("app").innerHTML = "Unknown World"
+					document.title = "Unknown World"
 				}
 			}
 		</script>
