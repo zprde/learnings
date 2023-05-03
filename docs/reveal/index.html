@@ -35,9 +35,11 @@
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 
-			setTimeout(() => document.getElementsByTagName('a').forEach(a => {
-				a.target = '_blank'
-			}), 2000)
+			setTimeout(() => {
+				let as = document.getElementsByTagName('a')
+				for (let i = 0; i < as.length; i++)
+					as.item(i).target = '_blank'
+			}, 2000)
 
 			function setMarkDown(){
 				const params = new Proxy(new URLSearchParams(window.location.search), {
