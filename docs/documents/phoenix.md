@@ -33,3 +33,27 @@ Note: 在Unix上进行的不算成功的分布式尝试，主要受限于当时�
 > “单体”只是表明系统中主要的过程调用都是进程内调用，不会发生进程间通信，仅此而已。
 
 
+#### 无用巨石？
+
+- 易于开发、测试、部署 <!-- .element: class="fragment" -->
+- 不会发生进程间调用，流程效率高 <!-- .element: class="fragment" -->
+- 依然可拆分：纵向分层、横向分模块 <!-- .element: class="fragment" -->
+- 集群部署 <!-- .element: class="fragment" -->
+
+#### 一些缺陷
+
+- 局部缺陷影响整个系统（内存泄漏、线程爆炸、阻塞、死循环等） <!-- .element: class="fragment" -->
+- 很难局部更新功能，不易维护 <!-- .element: class="fragment" -->
+- 难以异构 <!-- .element: class="fragment" -->
+
+
+---
+
+
+----
+
+## 架构师的视角
+分布式服务间的通信与管理
+
+---
+
